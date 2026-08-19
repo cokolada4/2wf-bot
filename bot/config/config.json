@@ -1,0 +1,37 @@
+{
+    "guild_id": null,
+    "admin_role_id": null,
+    "temp_voice": {
+        "enabled": true,
+        "generator_channel_id": null,
+        "category_id": null,
+        "name_format": "🔊 {username}'s Room"
+    },
+    "tickets": {
+        "enabled": true,
+        "category_id": null,
+        "support_role_id": null,
+        "types": {
+            "support": {
+                "name": "Support",
+                "emoji": "🎫",
+                "description": "Get help from the staff team"
+            },
+            "report": {
+                "name": "Report",
+                "emoji": "🚨",
+                "description": "Report a player or problem"
+            },
+            "application": {
+                "name": "Application",
+                "emoji": "📝",
+                "description": "Apply for staff or roles"
+            },
+            "other": {
+                "name": "Other",
+                "emoji": "❓",
+                "description": "Other inquiries"
+            }
+        }
+    }
+}
